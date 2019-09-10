@@ -35,10 +35,7 @@ class HomePage extends Component  {
                     <a href="https://medium.com/@tanuka.das12" rel="noopener noreferrer" target="_blank">
                       <i className="fa fa-medium" aria-hidden="true"/>
                     </a>
-                  {/* Medium */}
-                    <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                      <i className="fa fa-youtube-square" aria-hidden="true"/>
-                    </a>
+                  
                 </div>
               </div>
 
