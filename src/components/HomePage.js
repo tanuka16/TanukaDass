@@ -35,7 +35,7 @@ class HomePage extends Component  {
                     <a href="https://medium.com/@tanuka.das12" rel="noopener noreferrer" target="_blank">
                       <i className="fa fa-medium" aria-hidden="true"/>
                     </a>
-                  
+
                 </div>
               </div>
 

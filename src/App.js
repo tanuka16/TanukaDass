@@ -10,9 +10,10 @@ function App() {
     <Layout>
         <Header className='header-color' title="Tanuka Das" scroll>
             <Navigation>
-                <Link to="/Resume">Resume</Link>
+                <Link to="/">Home</Link>
                 <Link to="/AboutMe">About Me</Link>
                 <Link to="/Projects">Projects</Link>
+                <Link to="/Resume">Resume</Link>
                 <Link to="/Contact">Contact</Link>
             </Navigation>
         </Header>
