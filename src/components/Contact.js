@@ -7,19 +7,19 @@ class Contact extends Component  {
       <div className='contact-body'>
         <Grid className="contact-grid">
           <Cell col={6}>
-            <h2>Tanuka Das</h2>
+            <h2>Get in touch</h2>
             <img
               src="https://freepngimg.com/thumb/wonder_woman/20973-1-wonder-woman-picture.png"
               alt='avatar'
               style={{height:'250px'}}
             />
             <p style={{width:"75%", margin: 'auto', paddingTop:'1em'}}>
-            A MINDSET. A MANTRA. A CONVICTION.
-            AND IT’S ABOUT TO MAKE YOU UNSTOPPABLE.
+
+            If you would like to get in touch, talk about projects or just say hi, feel free to email or send me a message on LinkedIn.
             </p>
           </Cell>
           <Cell col={6}>
-            <h2>Contact Me</h2>
+            <h2>Contact Info</h2>
             <hr/>
 
             <div className="contact-list">
@@ -50,7 +50,16 @@ class Contact extends Component  {
               </List>
             </div>
           </Cell>
+
+          <div style={{paddingTop: '95px'}}>
+          <Cell col={12}>
+            <footer style={{color:"grey", textAlign:'center'}}>
+            © Tanuka Das. All rights reserved except the logos, which belong to the respective companies.
+            </footer>
+          </Cell>
+          </div>
         </Grid>
+
       </div>
     )
   }

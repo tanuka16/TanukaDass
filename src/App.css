@@ -1,41 +1,48 @@
 .header-color {
-  background: #0B486B;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #F56217, #0B486B);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #F56217, #0B486B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #2980B9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
 .home-grid {
-  background: #0B486B;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #F56217, #0B486B);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #F56217, #0B486B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #2980B9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   text-align: center;
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100% !important;
 }
+
 .avatar-img{
-  height: 250px;
-  padding-top: 5em;
+  height: 200px;
+  padding-top: 1em;
 
 }
 .banner-text{
   background-color: black;
-   opacity: .7;
-   width: 75%;
+   opacity: .5;
+   width: 70%;
    margin: auto;
    border-radius: 20px;
-   /* margin-bottom: 30px; */
+   margin-top: 30px;
+   margin-bottom: 5px;
+   /* padding-top: 30px; */
+   padding-bottom: 30px;
+   justify-content: center;
 }
+
 .banner-text h1{
-  font-size: 66px;
+  font-size: 60px;
   font-weight: bold;
   color: white;
-
 }
+
+
 .banner-text hr{
   border-top: 5px dotted white;
   width: 50%;
@@ -49,54 +56,51 @@
 .social-links{
   display: flex;
   justify-content: space-between;
-  width: 35%;
+  width: 25%;
   margin: auto;
+  margin-bottom: 15px;
 }
 
 .social-links i{
   color: white;
-  font-size: 5em;
-  /* padding: 8px; */
+  font-size: 3em;
+  padding: 8px;
 }
 
 /* project.js */
 
-.projects-grid{
-  background: #0B486B;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #F56217, #0B486B);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #F56217, #0B486B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.projects-grid {
+  background: #2980B9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   margin-top: 0px;
   display: flex;
   flex-wrap: wrap;
-}
-/* .projects-grid hr{
-  border-top: 5px dotted black;
-  width: 50%;
-  margin: auto;
+ }
 
-} */
-/* .projects-grid h1{
-  font-size: 46px;
-  font-weight: bold;
-  text-align: center;
-  padding-right: 100%
-} */
-
-.card{
+.card {
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
-  margin-left: 80px;
-  margin-bottom: 80px;
+  margin-left: 30px;
+  margin-bottom: 30px;
 }
 
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
 /* Contact page style */
 
 .contact-body{
+  background: #2980B9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   margin: auto;
-  /* background: grey; */
-  position: fixed;
+
+  /* position: fixed; */
   width: 100%;
   height: 100%;
   justify-content: center;
@@ -104,11 +108,12 @@
 }
 
 .contact-grid{
+
   text-align: center;
   justify-content: center;
   width: 80%;
   height: 550px;
-  background: white;
+  /* background: white; */
   color: black;
   /* border: 2px solid red; */
   margin-bottom: 20px;
@@ -121,6 +126,7 @@
 .contact-grid p {
   font-family: 'Oxygen', sans-serif;
   font-weight: bold;
+
 }
 
 .contact-grid hr {
@@ -132,5 +138,40 @@
 .contact-list i{
   font-size: 66px;
   padding-right: 3rem;
-  
+
+}
+/* about me page style */
+.aboutme-grid{
+  background: #2980B9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  text-align: center;
+  display: flex;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200%;
+}
+
+.intro-text{
+  width: 70%;
+  margin: auto;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+
+}
+
+.intro-text h3{
+  font-family: Montserrat;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 42px;
+  color: black;
+}
+.intro-text p{
+  font-family: inherit;
+  font-size: 20px;
 }

@@ -8,21 +8,22 @@ function App() {
   return (
     <div className="demo-big-content">
     <Layout>
-        <Header className='header-color' title="Tanuka Das" scroll>
-            <Navigation>
-                <Link to="/">Home</Link>
-                <Link to="/AboutMe">About Me</Link>
-                <Link to="/Projects">Projects</Link>
-                <Link to="/Resume">Resume</Link>
-                <Link to="/Contact">Contact</Link>
+        <Header className='header-color' title={<Link style={{textDecoration: 'none', color:'white', fontWeight:"bold", fontSize:'30px' }} to="/">Tanuka Das</Link>} scroll>
+            <Navigation style={{fontWeight:'bold'}}>
+
+                <Link to="/AboutMe" style={{fontWeight:'bold', fontSize: "15px"}}>About Me</Link>
+                <Link to="/Projects" style={{fontWeight:'bold', fontSize: "15px"}}>Projects</Link>
+                <Link to="/Contact" style={{fontWeight:'bold', fontSize: "15px"}}>Contact</Link>
+                {/* <Link to="/Resume">Resume</Link>*/}
             </Navigation>
         </Header>
-        <Drawer title="Title">
-            <Navigation>
-                <Link to="/Resume">Resume</Link>
-                <Link to="/AboutMe">About Me</Link>
-                <Link to="/Projects">Projects</Link>
-                <Link to="/Contact">Contact</Link>
+        <Drawer title={<Link style={{textDecoration: 'none', color:'black',fontWeight:"bold", fontSize:'30px'  }} to="/">Tanuka Das</Link>}>
+
+            <Navigation style={{fontWeight:'bold'}}>
+                <Link to="/AboutMe" style={{fontWeight:'bold', fontSize: "15px"}}>About Me</Link>
+                <Link to="/Projects" style={{fontWeight:'bold', fontSize: "15px"}}>Projects</Link>
+                <Link to="/Contact" style={{fontWeight:'bold', fontSize: "15px"}}>Contact</Link>
+                {/* <Link to="/Resume">Resume</Link>*/}
             </Navigation>
         </Drawer>
         <Content>

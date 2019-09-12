@@ -13,11 +13,11 @@ class HomePage extends Component  {
               alt='avatar'
               className='avatar-img'
               />
-              <div className="banner-text">
+              <div className="banner-text" style={{marginBottom: '100px'}}>
                 <h1>Full Stack Web Developer</h1>
 
                 <hr/>
-                <p>Ruby | Rails | JavaScript | React | HTML/CSS </p>
+                <p>Ruby | Ruby on Rails | JavaScript | React | HTML/CSS </p>
 
                 <div className="social-links">
 
@@ -38,12 +38,12 @@ class HomePage extends Component  {
 
                 </div>
               </div>
-
           </Cell>
-
         </Grid>
-        <hr/>
 
+        <footer style={{color:"grey", textAlign:'center', paddingTop: '35px'}}>
+          © Tanuka Das. All rights reserved except the logos, which belong to the respective companies.
+        </footer>
       </div>
     )
   }
