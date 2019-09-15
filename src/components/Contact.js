@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Grid, Cell, List, ListItem, ListItemContent} from 'react-mdl';
+import { Button } from 'reactstrap';
 
 class Contact extends Component  {
   render (){
@@ -45,6 +46,16 @@ class Contact extends Component  {
                   <a href="https://github.com/tanuka16"  target="_blank" style={{color:'black'}}>
                         My Github</a>
                   </ListItemContent>
+                </ListItem>
+
+
+                <ListItem>
+                <Button color="red" size="large" shape='action' view='smooth'>
+                  <ListItemContent style={{fontSize: '25px', fontFamily:'Anton'}}>
+                  <a href="https://github.com/tanuka16"  target="_blank" style={{color:'black'}}>
+                        Github</a>
+                  </ListItemContent>
+                  </Button>
                 </ListItem>
 
               </List>

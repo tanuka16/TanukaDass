@@ -54,17 +54,39 @@
   padding: 1em;
 }
 .social-links{
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
   display: flex;
   justify-content: space-between;
   width: 25%;
+  height: 25%;
   margin: auto;
-  margin-bottom: 15px;
+  margin-bottom: 45px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  border-radius: 8px;
+
 }
 
 .social-links i{
+  /* color: white; */
+  font-size: 1em;
   color: white;
-  font-size: 3em;
-  padding: 8px;
+  /* padding: 9px; */
+}
+
+.social-icon{
+  /* background: #004569; */
+  border-radius: 8px;
+  /* background: #0077B5; */
+  /* color: Dodgerblue; */
+
 }
 
 /* project.js */
@@ -172,6 +194,7 @@ background: linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ 
   color: black;
 }
 .intro-text p{
-  font-family: inherit;
+
+  font-family: Sans-serif;
   font-size: 20px;
 }

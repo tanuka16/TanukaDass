@@ -15,7 +15,7 @@ class AboutMe extends Component  {
               <div className="intro-text" style={{marginTop: '30px'}}>
                 <h3>Hello, and welcome to my website. </h3>
 
-                <p>I am a full stack web developer, focus on implementing intricate and detailed code. Fascination in coding began by adding computer science courses to my undergraduate studies and  grew into developing and building apps and websites. I am passionate about building excellent websites that improves the lives of those around me. </p>
+                <p>I am a full stack web developer, focus on implementing intricate and detailed code. My fascination in coding, began by adding computer science courses to my undergraduate studies and later grew into developing and building apps and websites. I am passionate about building excellent websites that improves the lives of those around me. </p>
 
                 <p>When I am not working, I love reading books, exploring different pages of the world, and hiking. </p>
 
