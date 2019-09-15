@@ -19,7 +19,8 @@
 }
 
 .avatar-img{
-  height: 200px;
+  height: 250px;
+  width: 135px;
   padding-top: 1em;
 
 }
@@ -53,40 +54,23 @@
   font-size: 20px;
   padding: 1em;
 }
-.social-links{
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
-
+.social-links {
   display: flex;
   justify-content: space-between;
   width: 25%;
-  height: 25%;
+  /* height: 25%; */
   margin: auto;
-  margin-bottom: 45px;
-
-  display: flex;
-  align-items: center;
-  text-align: center;
-
+  margin-bottom: 15px;
+  margin-top: 15px;
   border-radius: 8px;
+  color: #12c2e9;
 
 }
 
 .social-links i{
-  /* color: white; */
-  font-size: 1em;
-  color: white;
-  /* padding: 9px; */
-}
-
-.social-icon{
-  /* background: #004569; */
-  border-radius: 8px;
-  /* background: #0077B5; */
-  /* color: Dodgerblue; */
-
+  font-size: 3em;
+  color: #f64f59;
+  padding: 8px;
 }
 
 /* project.js */

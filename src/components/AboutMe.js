@@ -8,7 +8,8 @@ class AboutMe extends Component  {
         <Grid className="aboutme-grid">
           <Cell col={12}>
             <img
-              src= "https://freepngimg.com/thumb/wonder_woman/20973-1-wonder-woman-picture.png"
+            /*src= "https://freepngimg.com/thumb/wonder_woman/20973-1-wonder-woman-picture.png"*/
+              src= "pic5.png"
               alt='avatar'
               className='avatar-img'
               />

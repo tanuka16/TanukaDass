@@ -1,8 +1,5 @@
 import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
-import {AwesomeButton, AwesomeButtonSocial} from "react-awesome-button";
-import "react-awesome-button/dist/styles.css";
-import 'react-awesome-button/dist/themes/theme-blue.css';
 
 
 class HomePage extends Component  {
@@ -12,7 +9,7 @@ class HomePage extends Component  {
         <Grid className="home-grid">
           <Cell col={12}>
             <img
-              src= "pic.png"
+              src= "pic5.png"
               alt='avatar'
               className='avatar-img'
               />
@@ -24,24 +21,19 @@ class HomePage extends Component  {
 
                 <div className="social-links">
 
-
                   {/* LinkedIn */}
-                    <AwesomeButton id='social-icon' size='icon' type="primary" href="http://www.linkedin.com/in/tanuka-das" target="_blank">
+                    <a href="http://www.linkedin.com/in/tanuka-das" rel="noopener noreferrer" target="_blank">
                       <i className="fa fa-linkedin-square" aria-hidden="true"/>
-                    </AwesomeButton>
+                    </a>
 
                   {/* GitHub */}
-                    <AwesomeButton id='social-icon' size='icon' type="primary" href="https://github.com/tanuka16" target="_blank">
+                    <a href="https://github.com/tanuka16" rel="noopener noreferrer" target="_blank">
                       <i className="fa fa-github-square" aria-hidden="true"/>
-                    </AwesomeButton>
+                    </a>
 
                   {/* Medium */}
-                    <AwesomeButton id='social-icon' size='icon' type="primary" href="https://medium.com/@tanuka.das12" rel="noopener noreferrer" target="_blank">
+                    <a href="https://medium.com/@tanuka.das12" rel="noopener noreferrer" target="_blank">
                       <i className="fa fa-medium" aria-hidden="true"/>
-                    </AwesomeButton>
-
-                    <a href="https://medium.com/@tanuka.das12" rel="noopener noreferrer" target="_blank" style={{color:"Mediumslateblue"}}>
-                      <i className="fa fa-medium"/>
                     </a>
 
                 </div>

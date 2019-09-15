@@ -10,9 +10,9 @@ class Contact extends Component  {
           <Cell col={6}>
             <h2>Get in touch</h2>
             <img
-              src="https://freepngimg.com/thumb/wonder_woman/20973-1-wonder-woman-picture.png"
+              src="pic5.png"
               alt='avatar'
-              style={{height:'250px'}}
+              className='avatar-img'
             />
             <p style={{width:"75%", margin: 'auto', paddingTop:'1em'}}>
 
@@ -28,7 +28,9 @@ class Contact extends Component  {
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily:'Anton'}}>
                   <i className="fa fa-envelope" aria-hidden='true'/>
-                  tanuka.das12@gmail.com
+                  <a href = "mailto: tanuka.das12@gmail.com" rel="noopener noreferrer" target="_blank" style={{color:'black'}}>
+                  Email Me!</a>
+
                   </ListItemContent>
                 </ListItem>
 
@@ -46,16 +48,6 @@ class Contact extends Component  {
                   <a href="https://github.com/tanuka16"  target="_blank" style={{color:'black'}}>
                         My Github</a>
                   </ListItemContent>
-                </ListItem>
-
-
-                <ListItem>
-                <Button color="red" size="large" shape='action' view='smooth'>
-                  <ListItemContent style={{fontSize: '25px', fontFamily:'Anton'}}>
-                  <a href="https://github.com/tanuka16"  target="_blank" style={{color:'black'}}>
-                        Github</a>
-                  </ListItemContent>
-                  </Button>
                 </ListItem>
 
               </List>
