@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Grid, Cell, List, ListItem, ListItemContent} from 'react-mdl';
+import { Button } from 'reactstrap';
 
 class Contact extends Component  {
   render (){
@@ -9,9 +10,9 @@ class Contact extends Component  {
           <Cell col={6}>
             <h2>Get in touch</h2>
             <img
-              src="https://freepngimg.com/thumb/wonder_woman/20973-1-wonder-woman-picture.png"
+              src="pic5.png"
               alt='avatar'
-              style={{height:'250px'}}
+              className='avatar-img'
             />
             <p style={{width:"75%", margin: 'auto', paddingTop:'1em'}}>
 
@@ -27,7 +28,9 @@ class Contact extends Component  {
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily:'Anton'}}>
                   <i className="fa fa-envelope" aria-hidden='true'/>
-                  tanuka.das12@gmail.com
+                  <a href = "mailto: tanuka.das12@gmail.com" rel="noopener noreferrer" target="_blank" style={{color:'black'}}>
+                  Email Me!</a>
+
                   </ListItemContent>
                 </ListItem>
 
