@@ -11,6 +11,7 @@
   background: linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   text-align: center;
+  align-items: center;
   /* position: fixed; */
   top: 0;
   left: 0;
@@ -22,19 +23,23 @@
   height: 250px;
   width: 135px;
   padding-top: 1em;
+  /* margin-bottom: -3em; */
+  border-radius: 50%;
+  /* background: rgba(255, 255, 255, .4); */
+  box-shadow: .5em .5em .5em rgba(0, 0, 0, .4);
 
 }
 .banner-text{
   background-color: black;
    opacity: .5;
-   width: 70%;
-   margin: auto;
    border-radius: 20px;
-   margin-top: 30px;
-   margin-bottom: 5px;
-   /* padding-top: 30px; */
+   width: 80vw;
+   max-width: 45em;
+   padding: 1.5em 2em;
    padding-bottom: 30px;
    justify-content: center;
+   margin: 0 auto;
+   box-shadow: .5em .5em .5em rgba(0, 0, 0, .4);
 }
 
 .banner-text h1{
@@ -57,28 +62,27 @@
 .social-links {
   display: flex;
   justify-content: space-between;
-  width: 25%;
-  /* height: 25%; */
+  width: 50%;
   margin: auto;
   margin-bottom: 15px;
   margin-top: 15px;
   border-radius: 8px;
-  color: #12c2e9;
+  color: #4A00E0;
 
 }
 
 .social-links i{
   font-size: 3em;
-  color: #f64f59;
+  color: Dodgerblue;
   padding: 8px;
 }
 
 /* project.js */
 
 .projects-grid {
-  background: #2980B9;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: #2980B9;  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   margin-top: 0px;
   display: flex;
@@ -94,15 +98,26 @@ background: linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ 
 }
 
 .buttons {
+  display: block;
+  margin: auto;
+  box-shadow: 0 0 20px #08c;
   display: flex;
   justify-content: space-between;
+}
+
+.blog-buttons{
+  display: block;
+  margin: auto;
+  box-shadow: 0 0 20px #08c;
+  justify-content: space-between;
+}
+
+.tabs {
+  background: '#2980B9';
 }
 /* Contact page style */
 
 .contact-body{
-  background: #2980B9;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   margin: auto;
 
@@ -148,9 +163,6 @@ background: linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ 
 }
 /* about me page style */
 .aboutme-grid{
-  background: #2980B9;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   text-align: center;
   display: flex;
@@ -180,5 +192,29 @@ background: linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ 
 .intro-text p{
 
   font-family: Sans-serif;
-  font-size: 20px;
+  font-size: 1.2em;
 }
+
+.intro-text hr{
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
+.btn {
+  flex: auto;
+  transition: 0.5s;
+
+
+ /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2); */
+  box-shadow: 0 0 20px #08c;
+  border-radius: 100px;
+ }

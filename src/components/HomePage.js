@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
-
+import { Link } from 'react-router-dom';
 
 class HomePage extends Component  {
   render (){
     return (
       <div style={{width:'100%', margin: 'auto'}}>
+
         <Grid className="home-grid">
           <Cell col={12}>
             <img
@@ -24,6 +25,7 @@ class HomePage extends Component  {
                   {/* LinkedIn */}
                     <a href="http://www.linkedin.com/in/tanuka-das" rel="noopener noreferrer" target="_blank">
                       <i className="fa fa-linkedin-square" aria-hidden="true"/>
+
                     </a>
 
                   {/* GitHub */}
@@ -34,6 +36,11 @@ class HomePage extends Component  {
                   {/* Medium */}
                     <a href="https://medium.com/@tanuka.das12" rel="noopener noreferrer" target="_blank">
                       <i className="fa fa-medium" aria-hidden="true"/>
+                    </a>
+
+                  {/* Gmail */}
+                    <a href = "mailto: tanuka.das12@gmail.com" >
+                      <i className="fa fa-envelope" aria-hidden="true"/>
                     </a>
 
                 </div>

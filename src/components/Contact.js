@@ -9,6 +9,7 @@ class Contact extends Component  {
         <Grid className="contact-grid">
           <Cell col={6}>
             <h2>Get in touch</h2>
+            <hr/>
             <img
               src="pic5.png"
               alt='avatar'
@@ -26,8 +27,8 @@ class Contact extends Component  {
             <div className="contact-list">
               <List>
                 <ListItem>
-                  <ListItemContent style={{fontSize: '30px', fontFamily:'Anton'}}>
-                  <i className="fa fa-envelope" aria-hidden='true'/>
+                  <ListItemContent style={{fontSize: '25px', fontFamily:'Anton'}}>
+                  <i className="fa fa-envelope" aria-hidden='true' style={{color:'Dodgerblue'}}/>
                   <a href = "mailto: tanuka.das12@gmail.com" rel="noopener noreferrer" target="_blank" style={{color:'black'}}>
                   Email Me!</a>
 
@@ -36,7 +37,7 @@ class Contact extends Component  {
 
                 <ListItem>
                   <ListItemContent style={{fontSize: '25px', fontFamily:'Anton'}}>
-                  <i className="fa fa-linkedin-square" aria-hidden='true'/>
+                  <i className="fa fa-linkedin-square" aria-hidden='true' style={{color:'Dodgerblue'}}/>
                   <a href="http://www.linkedin.com/in/tanuka-das" rel="noopener noreferrer" target="_blank" style={{color:'black'}}>
                         My LinkedIn</a>
                   </ListItemContent>
@@ -44,9 +45,9 @@ class Contact extends Component  {
 
                 <ListItem>
                   <ListItemContent style={{fontSize: '25px', fontFamily:'Anton'}}>
-                  <i className="fa fa-github-square" aria-hidden='true'/>
+                  <i className="fa fa-github-square" aria-hidden='true' style={{color:'Dodgerblue'}}/>
                   <a href="https://github.com/tanuka16"  target="_blank" style={{color:'black'}}>
-                        My Github</a>
+                        My GitHub</a>
                   </ListItemContent>
                 </ListItem>
 
