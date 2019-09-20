@@ -3,7 +3,9 @@ import React, {Component} from 'react';
 class Resume extends Component  {
   render (){
     return (
-      <div><h1>Resume Page</h1></div>
+      <div>
+        <embed src="TanukaDas_Resume.pdf" type = "application/pdf" width="100%" height="600px" />
+      </div>
     )
   }
 }

@@ -29,7 +29,7 @@ class Contact extends Component  {
                 <ListItem>
                   <ListItemContent style={{fontSize: '25px', fontFamily:'Anton'}}>
                   <i className="fa fa-envelope" aria-hidden='true' style={{color:'Dodgerblue'}}/>
-                  <a href = "mailto: tanuka.das12@gmail.com" rel="noopener noreferrer" target="_blank" style={{color:'black'}}>
+                  <a href = "mailto: tanuka.das12@gmail.com" rel="noopener noreferrer" style={{color:'black'}}>
                   Email Me!</a>
 
                   </ListItemContent>

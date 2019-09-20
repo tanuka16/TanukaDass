@@ -14,6 +14,7 @@ function App() {
                 <Link to="/AboutMe" style={{fontWeight:'bold', fontSize: "15px"}}>About Me</Link>
                 <Link to="/Projects" style={{fontWeight:'bold', fontSize: "15px"}}>Projects</Link>
                 <Link to="/Contact" style={{fontWeight:'bold', fontSize: "15px"}}>Contact</Link>
+                <Link to="/Resume" style={{fontWeight:'bold', fontSize: "15px"}}>Resume</Link>
                 {/* <Link to="/Resume">Resume</Link>*/}
             </Navigation>
         </Header>
@@ -23,6 +24,7 @@ function App() {
                 <Link to="/AboutMe" style={{fontWeight:'bold', fontSize: "15px"}}>About Me</Link>
                 <Link to="/Projects" style={{fontWeight:'bold', fontSize: "15px"}}>Projects</Link>
                 <Link to="/Contact" style={{fontWeight:'bold', fontSize: "15px"}}>Contact</Link>
+                <Link to="/Resume" style={{fontWeight:'bold', fontSize: "15px"}}>Resume</Link>
                 {/* <Link to="/Resume">Resume</Link>*/}
             </Navigation>
         </Drawer>

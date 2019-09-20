@@ -42,12 +42,10 @@ class HomePage extends Component  {
                     <a href = "mailto: tanuka.das12@gmail.com" >
                       <i className="fa fa-envelope" aria-hidden="true"/>
                     </a>
-
                 </div>
               </div>
           </Cell>
         </Grid>
-
         <footer style={{color:"grey", textAlign:'center', paddingTop: '35px'}}>
           © Tanuka Das. All rights reserved except the logos, which belong to the respective companies.
         </footer>
