@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/TanukaDas/static/css/main.33f861f0.chunk.css",
+    "main.js": "/TanukaDas/static/js/main.32a81531.chunk.js",
+    "main.js.map": "/TanukaDas/static/js/main.32a81531.chunk.js.map",
+    "runtime~main.js": "/TanukaDas/static/js/runtime~main.a6c47442.js",
+    "runtime~main.js.map": "/TanukaDas/static/js/runtime~main.a6c47442.js.map",
+    "static/css/2.60a6b8e0.chunk.css": "/TanukaDas/static/css/2.60a6b8e0.chunk.css",
+    "static/js/2.f5fc2948.chunk.js": "/TanukaDas/static/js/2.f5fc2948.chunk.js",
+    "static/js/2.f5fc2948.chunk.js.map": "/TanukaDas/static/js/2.f5fc2948.chunk.js.map",
+    "index.html": "/TanukaDas/index.html",
+    "precache-manifest.ab4694da19ee242687b1d3ad27b3bd4c.js": "/TanukaDas/precache-manifest.ab4694da19ee242687b1d3ad27b3bd4c.js",
+    "service-worker.js": "/TanukaDas/service-worker.js",
+    "static/css/2.60a6b8e0.chunk.css.map": "/TanukaDas/static/css/2.60a6b8e0.chunk.css.map",
+    "static/css/main.33f861f0.chunk.css.map": "/TanukaDas/static/css/main.33f861f0.chunk.css.map"
+  }
+}
