@@ -11,7 +11,7 @@ class Contact extends Component  {
             <h2>Get in touch</h2>
             <hr/>
             <img
-              src="pic5.png"
+              src="pic5.jpg"
               alt='avatar'
               className='avatar-img'
             />
