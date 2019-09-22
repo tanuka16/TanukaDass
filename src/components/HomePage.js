@@ -10,7 +10,7 @@ class HomePage extends Component  {
         <Grid className="home-grid">
           <Cell col={12}>
             <img
-              src= "pic5.png"
+              src= "pic5.jpg"
               alt='avatar'
               className='avatar-img'
               />
