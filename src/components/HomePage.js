@@ -1,6 +1,12 @@
 import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
 import { Link } from 'react-router-dom';
+import styled, { keyframes } from 'styled-components';
+import { bounceIn } from 'react-animations';
+
+
+const Bounce = styled.div`animation: 2s ${keyframes `${bounceIn}`} `;
+
 
 class HomePage extends Component  {
   render (){
@@ -10,10 +16,11 @@ class HomePage extends Component  {
         <Grid className="home-grid">
           <Cell col={12}>
             <img
-              src= "pic5.jpg"
+              src= {process.env.PUBLIC_URL + '/pic5.jpg'}
               alt='avatar'
               className='avatar-img'
               />
+              <Bounce>
               <div className="banner-text" style={{marginBottom: '100px'}}>
                 <h1>Full Stack Web Developer</h1>
 
@@ -43,7 +50,7 @@ class HomePage extends Component  {
                       <i className="fa fa-envelope" aria-hidden="true"/>
                     </a>
                 </div>
-              </div>
+              </div></Bounce>
           </Cell>
         </Grid>
         <footer style={{color:"grey", textAlign:'center', paddingTop: '35px'}}>

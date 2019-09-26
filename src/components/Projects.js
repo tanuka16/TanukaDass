@@ -1,5 +1,10 @@
 import React, {Component} from 'react';
 import {Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton} from 'react-mdl';
+import styled, { keyframes } from 'styled-components';
+import { pulse } from 'react-animations';
+
+const Pulse = styled.div`animation: 2s ${keyframes `${pulse}`} `;
+
 
 class Projects extends Component  {
   constructor(props){
@@ -110,6 +115,7 @@ class Projects extends Component  {
           </CardActions>
         </Card>
         </div>
+
       )
     }
   }
@@ -125,11 +131,11 @@ class Projects extends Component  {
           <Tab>Blogs</Tab>
 
         </Tabs>
-
-
           <Grid>
             <Cell col={12}>
+            <Pulse>
               <div className="content">{this.toggleCategories()}</div>
+              </Pulse>
             </Cell>
           </Grid>
 
