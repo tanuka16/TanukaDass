@@ -1,5 +1,9 @@
 import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
+import styled, { keyframes } from 'styled-components';
+import { bounceIn } from 'react-animations';
+
+const Bounce = styled.div`animation: 2s ${keyframes `${bounceIn}`} `;
 
 class AboutMe extends Component  {
   render (){
@@ -13,14 +17,15 @@ class AboutMe extends Component  {
               alt='avatar'
               className='avatar-img'
               />
+              <Bounce>
               <div className="intro-text" style={{marginTop: '30px'}}>
                 <h3>Hello, and welcome to my website. </h3>
 
-                <p>I am a Full Stack Web Developer, based in Jamaica, New York. I focus on implementing intricate and detailed code.
-                My fascination in coding, began by adding computer science courses to my undergraduate studies and later grew into developing and building web applications.
-                I am passionate about building excellent websites that improves the lives of those around me. </p>
+                <p>I am a Full Stack Web Developer, based in Jamaica, New York. I focus on implementing an intricate and detailed code.
+                My fascination in coding began by adding computer science courses to my undergraduate studies and grew with developing and building web applications.
+                Making a project go from a concept to life simultaneously challenges, intrigues and motivates me.</p>
 
-                <p>When I am not working, I love reading books, hiking, exploring new places, and meeting new people. </p>
+                <p>When I am not working, I love reading books, hiking, and exploring new places. </p>
                 <br/>
 
                 <div className="social-links">
@@ -49,6 +54,7 @@ class AboutMe extends Component  {
                 </div>
 
               </div>
+            </Bounce>
 
           </Cell>
 

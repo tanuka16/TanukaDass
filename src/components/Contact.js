@@ -1,27 +1,35 @@
 import React, {Component} from 'react';
 import {Grid, Cell, List, ListItem, ListItemContent} from 'react-mdl';
 import { Button } from 'reactstrap';
+import styled, { keyframes } from 'styled-components';
+import { bounceIn } from 'react-animations';
 
+const Bounce = styled.div`animation: 2s ${keyframes `${bounceIn}`} `;
 class Contact extends Component  {
   render (){
     return (
       <div className='contact-body'>
         <Grid className="contact-grid">
           <Cell col={6}>
-            <h2>Get in touch</h2>
+            <Bounce><h2>Get in touch</h2></Bounce>
             <hr/>
+            <Bounce>
             <img
               src="pic5.jpg"
               alt='avatar'
               className='avatar-img'
             />
+            </Bounce>
+          <Bounce>
             <p style={{width:"75%", margin: 'auto', paddingTop:'1em'}}>
 
             If you would like to get in touch, talk about projects or just say hi, feel free to email or send me a message on LinkedIn.
             </p>
+          </Bounce>
           </Cell>
+
           <Cell col={6}>
-            <h2>Contact Info</h2>
+            <Bounce><h2>Contact Info</h2></Bounce>
             <hr/>
 
             <div className="contact-list">
@@ -54,6 +62,7 @@ class Contact extends Component  {
               </List>
             </div>
           </Cell>
+
 
           <div style={{paddingTop: '95px'}}>
           <Cell col={12}>
